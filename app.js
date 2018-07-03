@@ -1,6 +1,5 @@
 const express = require('express')
-const mongoose = require('../model/model.js')
-const Picture = mongoose.model('Picture')
+const Picture = require('./model/model')
 const cors = require('cors')
 const parser = require('body-parser')
 
@@ -51,6 +50,7 @@ app.put('/api/dogs/:id', (req, res) => {
     .catch((err) => {
       console.log(err)
     })
+})
 
 app.delete('/api/dogs/:id', (req, res) => {
   Picture.findByIdAndRemove(req.params.id)

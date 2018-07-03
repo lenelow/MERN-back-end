@@ -1,0 +1,43 @@
+[
+    {
+        "name": "Sadie",
+        "image": "https://images.dog.ceo/breeds/cairn/n02096177_2897.jpg"
+    },
+    {
+        "name": "Molly",
+        "image": "https://images.dog.ceo/breeds/weimaraner/n02092339_2103.jpg"
+    },
+    {
+        "name": "Chance",
+        "image": "https://images.dog.ceo/breeds/deerhound-scottish/n02092002_9656.jpg"
+    },
+    {
+        "name": "Lucy",
+        "image": "https://images.dog.ceo/breeds/cotondetulear/100_2397.JPG"
+    },
+    {
+        "name": "Robtert",
+        "image": "https://images.dog.ceo/breeds/pomeranian/n02112018_5936.jpg"
+    },
+    {
+        "name": "Coco",
+        "image": "https://images.dog.ceo/breeds/ridgeback-rhodesian/n02087394_4459.jpg"
+    },
+    {
+        "name": "Kirby",
+        "image": "https://images.dog.ceo/breeds/labrador/n02099712_2668.jpg"
+    },
+    {
+        "name": "Max",        
+        "image": "https://images.dog.ceo/breeds/husky/n02110185_5392.jpg"
+    },
+    {
+        "name": "Buddy",
+        "image": "https://images.dog.ceo/breeds/appenzeller/n02107908_7553.jpg"
+    },
+    {
+        "name": "Maggie",
+        "image": "https://images.dog.ceo/breeds/boxer/n02108089_1410.jpg"
+    }
+]
+

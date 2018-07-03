@@ -1,7 +1,8 @@
-const mongoose = require('../db/connection.js')
+const mongoose = require('mongoose')
 
 const PictureSchema = new mongoose.Schema({
-  text: String
+  name: String,
+  image: String
 })
 
 mongoose.model('Picture', PictureSchema)

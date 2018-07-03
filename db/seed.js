@@ -1,6 +1,6 @@
-const mongoose = require('./schema.js')
+const mongoose = require('./model/model')
 const Picture = mongoose.model('Picture')
-const dogData = require('https://dog.ceo/dog-api/documentation/random')
+const dogData = require('./dog-data.json')
 
 Picture.remove({})
   .then(() => {
