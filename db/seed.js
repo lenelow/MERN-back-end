@@ -4,11 +4,9 @@ const dogData = require('./dog-data.json')
 
 Picture.remove({})
   .then(() => {
-    Picture.collection.insert(dogData)
-      .then((dogs) => {
-        console.log(dogs)
-        process.exit()
-      })
+    return Picture.collection.insert(dogData)
+  }).then(() => {
+    process.exit()
   })
   .catch((err) => {
     console.log(err)

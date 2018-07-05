@@ -1,7 +1,9 @@
 const express = require('express')
-const Picture = require('./model/model')
 const cors = require('cors')
 const parser = require('body-parser')
+const mongoose = require('./model/model')
+
+const Picture = mongoose.model('Picture')
 
 // var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
